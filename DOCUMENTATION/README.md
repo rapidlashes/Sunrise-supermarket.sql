@@ -34,7 +34,7 @@ This section focuses mainly on the different SQL operators like Comparison opera
 This section is montly on the use of functions in SQL. Common fuctions used here are `SUM()`, `COUINT()` and `AVG()`.
 
 
-SECTION E : JOINS
+**SECTION E : JOINS**
 
 This section focuses on Joins which fall under the Data Querry Language. The joins mostly used here are `inner join()` and `left join()`.
 
