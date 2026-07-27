@@ -10,7 +10,6 @@
 
 
 **SECTION A** : **CREATING SCHEMAS AND TABLES**
-
 This section covers the Data Definition Language in SQL. Focuses on creating schemas, setting search path, creating tables and also inserting values in those tables. It defines the types of data/values to be input in the table eg, `INT()`, `DECIMAL()`, `VARCHAR()`, `TXT()`, `SERIAL()` etc. It also defines constrains along side those values eg `UNIQUE()`, `DEFAULT()`, `NOT NULL()`, `NULL()`, `PRIMARY KEY()`, `FOREIGN KEY()` etc.
 
 
