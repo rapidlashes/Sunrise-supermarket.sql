@@ -62,3 +62,15 @@ values
 (1,3,1),
 (2,2,1),
 (3,4,5);
+
+create index flash
+on  sunrise_supermarket.products (product_name, category, unit_price, stock_quantity);
+
+create index flash_1
+on sunrise_supermarket.orders(status,order_date);
+
+alter table sunrise_supermarket.orders
+alter column order_date type DATE
+using order_date::DATE;
+
+

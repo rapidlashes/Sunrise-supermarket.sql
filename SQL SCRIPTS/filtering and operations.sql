@@ -34,7 +34,7 @@ where p.product_name ilike '%oil%';
 select order_id
 from sunrise_supermarket.orders o 
 where status = 'Pending'
-order by order_date desc ;
+order by order_date asc ;
 
 --Q20. Challenge - show the 2 most expensive products, using ORDER BY and LIMIT together.
 select product_name, unit_price

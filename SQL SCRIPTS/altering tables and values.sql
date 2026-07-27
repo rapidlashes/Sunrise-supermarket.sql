@@ -25,8 +25,10 @@ when 4 then 0
 else loyalty_points
 end;
 
---Q7.alter table sunrise_supermarket.products
-alter column product_name type VARCHAR(150);
+--Q7.- you realise product_name should allow longer names. Change its column type to VARCHAR(150).
+alter table sunrise_supermarket.products 
+alter column product_name type VARCHAR(50);
+
 
 --Q12.updating status for order_id 2
 update sunrise_supermarket.orders
@@ -37,3 +39,14 @@ where order_id =2;
 delete from sunrise_supermarket.orders 
 where status = 'Cancelled';
 
+--CORRECTIONS
+--setting defauilt values for the column loyalty point to 0
+alter table sunrise_supermarket.customers
+alter column loyalty_points set default 0;
+
+create index my_index
+on sunrise_supermarket.customers(full_name);
+
+
+select * from sunrise_supermarket.customers
+where full_name = 'Grace Wambui';
