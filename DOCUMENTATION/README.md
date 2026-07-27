@@ -42,8 +42,10 @@ This section focuses on Joins which fall under the Data Querry Language. The joi
 **NOTE**: each section is on it's separate SQL script
 
 
-**ER DIAGRAMS**
+**ER DIAGRAM**
 
-The Entity Relationship diagrams show us how the tables are related to one another in the schema. The relationship can be one to many, many to one, one to one  or many to many depending on the schema
+The Entity Relationship diagrams show us how the tables are related to one another in the schema. The relationship can be one to many, many to one, one to one  or many to many depending on the schema.
+The ER diagram shows a one to many relationship , with the arrows pointing towards the direction of the relationship
 
-<img width="800" height="537" alt="defaultdb - defaultdb - sunrise_supermarket" src="https://github.com/user-attachments/assets/774eb169-83d8-4428-b132-0b3409d2ba39" />
+<img width="800" height="537" alt="ER diagram" src="https://github.com/user-attachments/assets/0b262080-0aa1-4bc1-a245-d6ba70ea5473" />
+
