@@ -34,10 +34,14 @@ This section focuses mainly on the different SQL operators like Comparison opera
 This section is montly on the use of functions in SQL. Common fuctions used here are `SUM()`, `COUINT()` and `AVG()`.
 
 
-
 SECTION E : JOINS
 
 This section focuses on Joins which fall under the Data Querry Language. The joins mostly used here are `inner join()` and `left join()`.
 
 
 **NOTE**: each section is on it's separate SQL script
+
+
+**ER DIAGRAMS**
+
+The Entity Relationship diagrams show us how the tables are related to one another in the schema. The relationship can be one to many, many to one, one to one  or many to many depending on the schema
